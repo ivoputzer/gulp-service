@@ -36,5 +36,5 @@ app.get('/', function(req, res){
   res.send('service is up!');
 })
 
-app.listen(service.env.port);
+app.listen(process.env.port);
 ```

@@ -1,7 +1,7 @@
 {
   "name": "gulp-service",
   "author": "Ivo von Putzer Reibegg <ivo.putzer@gmail.com>",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "gulp plugin for spawning processes and services such as restful api servers",
   "homepage": "https://github.com/ivoputzer/gulp-service",
   "main": "index.js",

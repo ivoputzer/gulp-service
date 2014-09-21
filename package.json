@@ -1,0 +1,29 @@
+{
+  "name": "gulp-service",
+  "author": "Ivo von Putzer Reibegg <ivo.putzer@gmail.com>",
+  "version": "0.0.1",
+  "description": "gulp plugin for spawning processes and services such as restful api servers",
+  "homepage": "https://github.com/ivoputzer/gulp-service",
+  "main": "index.js",
+  "keywords": [
+    "gulp",
+    "express",
+    "process",
+    "spawn",
+    "service",
+    "server",
+    "api"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ivoputzer/gulp-service"
+  },
+  "license": "WTFPL",
+  "dependencies": {
+    "gulp-util": "~3.0.1"
+  },
+  "readmeFilename": "readme.md",
+  "bugs": {
+    "url": "https://github.com/ivoputzer/gulp-service/issues"
+  }
+}

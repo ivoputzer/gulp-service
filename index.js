@@ -8,7 +8,7 @@ module.exports = (function () {
 				service.kill('SIGKILL')
         service = undefined
 			}
-      service = child_process.spawn('node', [file]), options || {})
+      service = child_process.spawn('node', [file], options || {})
       service.stdout.setEncoding('utf8')
       service.stdout.on('data', function (data) {
         util.log('[' + util.colors.green(file) + ']', util.colors.yellow('stdout: ' + data.toString()))

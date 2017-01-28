@@ -9,3 +9,11 @@ before_install:
 - npm i -g standard
 before_script:
 - standard
+deploy:
+  provider: npm
+  email: ivo.putzer@gmail.com
+  api_key:
+    secure: YZK7kSqnrxJYYWC63CAwLNzOxjjhhJZ058/GBNMuQbXcJfPcDsli3y8OHstM8Dr/D0l0D4+cK7zROO13K+zBytmYYytoql1TG2HCbQ41ldSGAWE/gJEbkSGcl9sMwZOTGdTWc/W+D2TgwlZo5ErCTd3ADlmyTQ+1sXlHR2S6aLk=
+  on:
+    repo: ivoputzer/gulp-service
+    branch: master

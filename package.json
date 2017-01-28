@@ -18,7 +18,7 @@
     "type": "git",
     "url": "git://github.com/ivoputzer/gulp-service.git"
   },
-  "license": "MIT",
+  "license": "WTFPL",
   "dependencies": {
     "gulp-util": "~3.0.1"
   },

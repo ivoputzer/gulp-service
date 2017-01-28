@@ -16,13 +16,20 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/ivoputzer/gulp-service"
+    "url": "git://github.com/ivoputzer/gulp-service.git"
   },
-  "license": "WTFPL",
+  "license": "MIT",
   "dependencies": {
     "gulp-util": "~3.0.1"
   },
-  "readmeFilename": "readme.md",
+  "scripts": {
+    "test": "m.test"
+  },
+  "standard": {
+    "globals": [
+      "test"
+    ]
+  },
   "bugs": {
     "url": "https://github.com/ivoputzer/gulp-service/issues"
   },

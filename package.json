@@ -25,5 +25,8 @@
   "readmeFilename": "readme.md",
   "bugs": {
     "url": "https://github.com/ivoputzer/gulp-service/issues"
+  },
+  "devDependencies": {
+    "m.test": "0.0.43"
   }
 }

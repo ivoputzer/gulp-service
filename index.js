@@ -2,7 +2,7 @@ const {spawn} = require('child_process')
 const {log, colors: {green, yellow, red}} = require('gulp-util')
 
 module.exports = (function () {
-  var service = undefined
+  let service = undefined
   return {
     run: function (file, options) {
       if (service) {
